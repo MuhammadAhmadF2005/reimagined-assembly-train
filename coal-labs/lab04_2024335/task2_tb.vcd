@@ -1,0 +1,163 @@
+$date
+	Fri Feb 20 10:29:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mul8u_seq $end
+$var wire 16 ! y [15:0] $end
+$var wire 1 " ready $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$scope module DUT $end
+$var wire 8 ' a [7:0] $end
+$var wire 8 ( b [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 4 ) count [3:0] $end
+$var reg 16 * multiplicand [15:0] $end
+$var reg 8 + multiplier [7:0] $end
+$var reg 1 " ready $end
+$var reg 16 , y [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+1&
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+1%
+#10
+0%
+b11 $
+b11 (
+b1111 #
+b1111 '
+0&
+#15
+b1 )
+b11 +
+b1111 *
+1%
+#20
+0%
+#25
+b10 )
+b1 +
+b11110 *
+b1111 !
+b1111 ,
+1%
+#30
+0%
+#35
+b11 )
+b0 +
+b111100 *
+b101101 !
+b101101 ,
+1%
+#40
+0%
+#45
+b100 )
+b1111000 *
+1%
+#50
+0%
+#55
+b101 )
+b11110000 *
+1%
+#60
+0%
+#65
+b110 )
+b111100000 *
+1%
+#70
+0%
+#75
+b111 )
+b1111000000 *
+1%
+#80
+0%
+#85
+b1000 )
+b11110000000 *
+1%
+#90
+0%
+#95
+1"
+b1001 )
+b111100000000 *
+1%
+#100
+0%
+#105
+1%
+#110
+0%
+b11111111 $
+b11111111 (
+b11111111 #
+b11111111 '
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+1%
+#140
+0%
+#145
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
+#205
+1%
+#210
+0%
